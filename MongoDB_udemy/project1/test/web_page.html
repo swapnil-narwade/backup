@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this is a webpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+<div class="container jumbotron jumbotron-fluid" >
+    <h3 style="color: blue"> Insert a Database</h3><br>
+    <div class="row ">
+        <div class=" col col-xs-3">
+            <form name="upload" action="upload" method="post" enctype="multipart/form-data">
+
+                <input type="submit" value="Select">
+                <p>Insert column name</p>
+            </form>
+        </div>
+        <div class="col col-xs-3">
+            <form name="column" action="column" method="post" enctype="multipart/form-data">
+                <input type="text" name="column">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+
+        <br>
+
+        <form name="insert" action="insert" method="post" enctype="multipart/form-data">
+            <p>Show Queries</p>
+            <input type="text" name="insert">
+            <input type="submit" name="Insert" value="Insert">
+        </form>
+    </div>
+
+
+    <hr>
+    <hr>
+
+    <table style="width:100%" class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Room</th>
+            <th>Telnum</th>
+            <th>Picture</th>
+            <th>Keyboards</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>Nora</td>
+            <td>100</td>
+            <td>550</td>
+            <td>1000010</td>
+            <td>nora.jpg</td>
+            <td>Nora is nice</td>
+        </tr>
+        <tr>
+            <td>Jees</td>
+            <td>98</td>
+            <td>420</td>
+            <td>1000010</td>
+            <td>Jees.jpg</td>
+            <td>Jees is nice</td>
+        </tr>
+        <tr>
+            <td>Abhishek</td>
+            <td>98</td>
+            <td>w34</td>
+            <td>1000010</td>
+            <td>Abhi.jpg</td>
+            <td>Abhi is nice</td>
+        </tr>
+        <tr>
+            <td>Dave</td>
+            <td>40</td>
+            <td>525</td>
+            <td>1000010</td>
+            <td>Dave.jpg</td>
+            <td>Dave is nice</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
